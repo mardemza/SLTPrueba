@@ -1,0 +1,48 @@
+﻿/* ### LIST ### */
+
+ul.metroui-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.metroui-list li { 
+	padding: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: #970000;
+	color: #6495ED;
+	cursor: pointer;
+}
+
+ul.metroui-list li:hover {
+	background-color: #AA0000;
+}
+
+li.metroui-list-selected {
+	background-color:#4e534b !important;
+	color: #fff;
+}
+
+
+/* ### PIVOT ### */
+
+ul.metroui-pivot-nav
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.metroui-pivot-nav li 
+    {
+        display: inline; 
+        color: #ccc;
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    
+        ul.metroui-pivot-nav li.metro-selected
+        {
+            color: #999;
+        }
